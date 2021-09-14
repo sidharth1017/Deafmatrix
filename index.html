@@ -1,0 +1,1904 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <!--meta-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--meta-->
+  <meta name="decription"
+    content="DeafMatrix is a social networking application geared towards connecting users who have provided documentation attesting to a hearing disability that may have impacted one or more functions involving verbal communication.">
+  <!--meta-->
+  <meta name="keywords"
+    content="deaf news, deaf friends,deaf social,deaf deating,deaf events,deaf life,find deaf people,deaf nearby,deaf like me,hearing loss,cochlear,hearing aid, social network, ">
+  <!--meta-->
+  <meta name="author" content="Faizy Jamal">
+  <title>DeafMatrix | Chat. Meetup. Forum.</title>
+  <link rel="shortcut icon" href="icon_tab.png">
+  <!--icon-->
+  <!--Twitter--->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@deafmatrix">
+  <meta name="twitter:creator" content="@Faizy_Jamal">
+  <meta name="twitter:title" content="Deaf Social App | DeafMatrix, LLC">
+  <meta name="twitter:description" content="The very first social app for the deaf.">
+  <meta name="twitter:image"
+    content="https://scontent.fhou1-2.fna.fbcdn.net/v/t1.0-9/118773875_154582939623138_6210353714230195395_o.png?_nc_cat=110&_nc_sid=730e14&_nc_ohc=kewu0AEUogcAX_t9Rb7&_nc_ht=scontent.fhou1-2.fna&oh=3f9b671292308b3c4bb953e31fae68ad&oe=5F76764D">
+  <!--Twitter--->
+  <!--link-->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <!--bootstrap-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!--scroll animation-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!--scroll animation-->
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <!--font-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+  <!--font-->
+  <link rel=" stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--font-->
+  <!--
+  <link rel="stylesheet" href="features.css">
+  <link rel="stylesheet" href=" countdown.css">
+  <link rel="stylesheet" href="cover_page.css">
+  <link rel="stylesheet" href="quote_image.css">
+  <link rel="stylesheet" href="misson_card.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="faq.css">
+  <link rel="stylesheet" href="chatbot.css">
+  <link rel="stylesheet" href="media.css">
+ -->
+  <link rel="stylesheet" href="style.css">
+
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <!--bootstrap-->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <!--bootstrap-->
+  <link rel=" stylesheet" href="https://seedthemes.com/i/seed.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+
+  <!--footer-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <link rel=" stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--footer-->
+
+  <link rel="stylesheet" href="css/custom.css">
+
+</head>
+
+<style>
+  input[type="button"] {
+    border: none;
+  }
+
+  /* @media (max-width:425px) {
+    #contact_us img {
+      left: 0;
+      top: 5px;
+    }
+
+    #contact_us p {
+      left: 0px;
+      top: 8px;
+    }
+  }
+
+  @media (min-width:321px)and (max-width:375px) {
+    #contact_us p {
+      top: 3px;
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    #contact_us img {
+      left: 0px;
+      top: 0;
+    }
+
+    #contact_us {
+      position: relative;
+    }
+  }
+
+  @media (width:414px) {
+    #contact_us {
+      margin-left: 0px;
+    }
+
+    #contact_us p {
+      top: 12px;
+    }
+  }
+
+  @media (max-width:320px) {
+    #contact_us {
+      margin-left: -48px;
+      position: relative;
+      margin-top: 20px;
+    }
+
+    #contact_us img {
+      left: 0;
+      top: 0;
+      position: absolute;
+    }
+
+    #contact_us p {
+      font-weight: 400;
+      position: absolute;
+      left: 15px;
+      top: 4px;
+    }
+
+    .logo img {
+      width: 270px;
+    }
+  }
+
+  @media (max-width:375px) {
+    .header-menu ul li a {
+      font-size: 20px !important;
+    }
+
+    .header-menu li {
+      padding: 10px;
+    }
+
+    .policy {
+      text-align: center;
+      margin-top: 0px;
+    }
+
+    .btn_modal {
+      padding: 2px 9px;
+    }
+
+    .app_store img {
+      padding: 2px 0px !important;
+    }
+
+    .app_store img {
+      width: 150px;
+    }
+  } */
+</style>
+
+<body>
+
+
+
+  <!--countdown css-->
+  <section class="countdown-section countdown_modal" id="myModal">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-6 col-lg-8 col-md-10 mx-auto">
+          <div class="countdown_design">
+            <button class="close_button" id="btnClose">&times;</button>
+            <h3 class="title">DeafMatrix App will be published in</h3>
+            <!-- countdown section -->
+            <div id="countdown" class="countdown_row">
+              <p>Days
+                <span class="days"></span>
+              </p>
+              <p>Hours
+                <span class="hours"></span>
+              </p>
+              <p>Minutes
+                <span class="minutes"></span>
+              </p>
+              <p>Seconds
+                <span class="seconds"></span>
+              </p>
+            </div>
+            <!-- countdown section -->
+            <h1 class="countdown_title countdown_l_title">Launching Soon!</h1>
+            <div class="countdown_footer">
+              <img src="pictures/black_icon.png">
+              <p>© 2020 DeafMatrix, LLC. All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--countdown css-->
+
+
+
+  <!--cover page css-->
+  <!--header-->
+  <div class="header_bg">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-8 col-md-12">
+          <div class="logo"><a href="index.html"><img src="pictures/deafMatrix.png"></a></div>
+          <div class="header-menu main_menu">
+            <ul style="list-style: none; margin-bottom:0px; font-size: 2px;">
+              <li> <a href="#connect">Connect</a></li>
+              <li> <a href="#idevents">Events</a></li>
+              <li> <a href="#idnewsfeed">News</a> </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <div class="header_downloads">
+            <ul style="list-style: none; font-size: 0px;">
+              <li class="app_store" id="myBtn_main1"> <a href="#"><img src="pictures/appstore_white.svg"
+                    style="opacity: 1; border-radius: 8px;"></a></li>
+              <li class="google_play" id="myBtn_main2"> <a href="#"><img src="pictures/googlestore_white.svg"
+                    style="opacity: 1; border-radius: 8px;"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--header-->
+
+
+
+  <!-- typewriter cover -->
+  <div class="typewriter_cover">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+
+          <div class="containar writer-container">
+            <p><span id="whiteTypedText">Do you like to </span><span class="typed-text"></span><span
+                class="cursor">&nbsp;</span></p>
+          </div>
+
+          <div style="margin-top:30px; text-align: center;">
+            <a href="#connect"> <button class="butn-explore" style="outline:none;color:white">Explore &nbsp
+                </strong></button></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- typewriter cover -->
+  <!--cover page css-->
+
+  <!--features css-->
+  <!--Connect-->
+  <div id="connect" class="myconnect">
+    <div class="container-fluid">
+      <div class="row px-5 paddingXXL mt connect-row">
+
+        <div class="col-xl-5 col-lg-6 col-md-12 hti">
+          <div data-aos="zoom-in-up">
+            <img src="pictures/connect.gif" class="iPad" id="connect_hover" width="100%" style="border-radius:20px;">
+          </div>
+        </div>
+        <div class="col-xl-5 col-lg-6 col-md-12 htg">
+          <div data-aos="zoom-in-up">
+            <img src="pictures\connect img.jpg" class="iPad" id="connect_hover" width="100%"
+              style="border-radius:20px;">
+          </div>
+        </div>
+        <div class="col-xl-7 col-lg-6 col-12 col-md-12" id="hide_me">
+          <div class="connect-text mobile-top connect-sec" data-aos="zoom-in-up">
+            <h2 style="font-weight:bold;text-align:center;color: black;" class="title">Connect</h2>
+            <p style="font-size:25px; text-align:center;" class="desc">Do you ever feel
+              isolated, lonely, or rejected in the hearing world? Connect with friends just like you. Find
+              someone within your age group and with similar interests. Find a mentor or become someone’s
+              mentor. Let's connect with each other!</p>
+            <div class="app_store text-center button-row" style="opacity: .5;">
+              <button id="myBtn"><img src="pictures/app_store.png"></button>
+              <button id="myBtn2"><img src="pictures/google_play.png"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row py-md-2">
+        <div class="col-md-12">
+          <!--butn_down-->
+          <div class="arrow_buttons">
+            <a href="#idevents"><i class='fas fa-angle-down' style='color:blue; font-size:36px'></i><br>
+              <p style="color:blue; margin-top: 5px;">Events</p>
+            </a>
+          </div>
+          <!--butn_down-->
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!--Connect-->
+
+
+  <!--Events-->
+  <div id="idevents">
+    <div class="container-fluid">
+      <div class="row paddingXXL mobile-direction mb-5 event-sec">
+
+        <div class="col-xl-7 col-lg-6 col-md-12 c-plr-0" id="hide_me2">
+          <div class="connect-text mobile-top" data-aos="zoom-in-up">
+            <h2 style="font-weight:bold;text-align:center;color: black;">Events</h2>
+            <p style="font-size:25px;text-align:center;" class="desc">Wondering how to find people like you in person? Now you
+              can! This feature allows you to discover and post upcoming events meetups, and get together around
+              you. Let’s strengthen our friendship together!</p>
+            <div class="app_store text-center button-row" style="opacity: .5;">
+              <button id="myBtn3"><img src="pictures/app_store.png"></button>
+              <button id="myBtn4"><img src="pictures/google_play.png"></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-5 col-lg-6 col-md-12 hti">
+          <div data-aos="zoom-in-up">
+            <img src="pictures/events.gif" class="iPad" id="events_hover" width="100%" style="border-radius:20px;">
+          </div>
+        </div>
+
+        <div class=" col-lg-6 col-md-12 htg ">
+          <div data-aos="zoom-in-up">
+            <img src="pictures/events img.jpg" class="iPad" id="events_hover" width="100%" style="border-radius:20px;">
+          </div>
+        </div>
+      </div>
+
+      <div class="row py-md-2 news-feed-title">
+        <div class="col-md-12">
+          <!--butn_down-->
+          <div class="arrow_buttons">
+            <a href="#idnewsfeed"><i class='fas fa-angle-down' style='color:blue; font-size:36px'></i><br>
+              <p style="color:blue; margin-top: 5px;">News Feed</p>
+            </a>
+          </div>
+          <!--butn_down-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Events-->
+
+
+  <!--News Feed-->
+  <div id="idnewsfeed">
+    <div class="container-fluid">
+      <div class="row px-5 paddingXXL mb news-sec">
+
+        <div class="col-xl-5 col-lg-6 col-md-12 hti">
+          <div data-aos="zoom-in-up">
+            <img src="pictures/news.gif" class="iPad" id="news_hover" width="100%" style="border-radius:20px;">
+          </div>
+        </div>
+
+        <div class="col-xl-5 col-lg-6 col-md-12 htg">
+          <div data-aos="zoom-in-up">
+            <img src="pictures\news_img.jpg" class="iPad" id="news_hover" width="100%" style="border-radius:20px;">
+          </div>
+        </div>
+        <div class="col-xl-7 col-lg-6 col-md-12" id="hide_me3">
+          <div class="connect-text mobile-top" data-aos="zoom-in-up">
+            <h2 style="font-weight:bold;text-align:center;color: black;">News Feed</h2>
+            <p style="font-size:25px;text-align:center" class="desc">Post what’s on your
+              mind.
+              Share your joys, your struggles, and your acheievements. Ask your queries. Post stories, catch up with
+              latest news, and find new advances in deaf world. Let’s keep our community updated!</p>
+
+            <div class="app_store text-center button-row" style="opacity: .5;">
+              <button id="myBtn5"><img src="pictures/app_store.png"></button>
+              <button id="myBtn6"><img src="pictures/google_play.png"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--News Feed-->
+
+  <!--bubbles-->
+  <div class="bubbles bubble-row-features" id="hide_bubbles">
+    <div class="row mt-3">
+      <!--Get Verified-->
+      <div class="col-lg-4">
+        <div class="about_detail text-center p-4">
+          <div class="bubbles_icon">
+            <div data-aos="zoom-in" data-aos-duration="400" data-aos-delay="300">
+              <i class="fas fa-shield-alt"></i>
+
+              <h5 class="text-dark text-capitalize mt-3 bubble_title">Get Verified</h5>
+              <p class="edu_desc mt-3 mb-0 text-muted info_text">The user’s profile will be verified through uploading a
+                photo or an audiogram, but it is optional.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--User Friendly-->
+      <div class="col-lg-4">
+        <div class="about_detail text-center p-4">
+          <div class="bubbles_icon">
+            <div data-aos="zoom-in" data-aos-duration="400" data-aos-delay="500">
+
+              <i class="fas fa-stream"></i>
+
+              <h5 class="text-dark text-capitalize mt-3 bubble_title">User Friendly</h5>
+              <p class="edu_desc mt-3 mb-0 text-muted info_text">Offers a sleek layout and a user-friendly interface.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--No Cost-->
+      <div class="col-lg-4">
+        <div class="about_detail text-center p-4">
+          <div class="bubbles_icon">
+            <div data-aos="zoom-in" data-aos-duration="400" data-aos-delay="700">
+              <i class="fas fa-money-check "></i>
+              <h5 class="text-dark text-capitalize mt-3 bubble_title">No Cost</h5>
+              <p class="edu_desc mt-3 mb-0 text-muted info_text">Available to all users at no charge. No hidden fees.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!--bubbles-->
+  <!--features css-->
+
+  <!--quote_image css-->
+  <div class="quote_cover" data-type="parallax" data-speed="-2"></div>
+  <!--quote-image css-->
+
+
+  <!--misson_card css-->
+  <!--- our mission -->
+  <div class="page our_mission">
+    <div data-aos="fade-up">
+      <div class="container px-0">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 px-0">
+            <div class="card_m">
+              <div class="mission_title">
+                <h3>DeafMatrix</h3>
+              </div>
+              <div class="mission_info mission_sec">
+                <h1>Our Mission</h1>
+                <p class="desc">DeafMatrix is all about bringing together deaf community on one platform where they can connect
+                  people
+                  with similar interests, share their experiences, and provide latest news, trends, and events around
+                  the
+                  world. There are 466 million deaf people in the world that has some kind of disabling hearing loss.
+                  DeafMatrix is a social networking app for the Deaf community. This app will be of service to
+                  millions of
+                  deaf friends around the world to build new connections with the help of today's most advanced
+                  technology.</p>
+                <div class="btn_wrap">
+                  <span>Share</span>
+                  <div class="container">
+                    <a href="http://www.facebook.com/sharer.php?u=www.deafmatrix.com" target="_blank">
+                      <i class="fab fa-facebook-f fba"></i>
+                    </a>
+                    <a href="http://twitter.com/share?text=Check this out! It's the very first social app for the deaf!&url=https://deafmatrix.com&hashtags=deafapp"
+                      target="_blank">
+                      <i class="fab fa-twitter t "></i>
+                    </a>
+                    <a href="mailto:?subject=www.deafmatrix.com" target="_blank">
+                      <i class="fa fa-envelope e"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=www.deafmatrix.com" target="_blank"><i
+                        class="fa fa-linkedin l"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12 px-0 d-md-block d-none">
+            <div class="photo"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <!--- our mission -->
+  <!--misson_card css-->
+
+
+
+
+
+  <!--team css-->
+  <div class="our-team-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="team_title">Meet The Team</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--team html-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.1/assets/owl.carousel.css">
+<link rel="stylesheet" href="https://themes.audemedia.com/html/goodgrowth/css/owl.theme.default.min.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css"
+	rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.1/owl.carousel.min.js"></script>
+<link rel="stylesheet" type="text/css" href="team.css">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<!--font-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--font-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+<!--font-->
+<link rel=" stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--font-->
+
+
+
+<!-- teams -->
+<section class="teams" style="width:100%;">
+	<div class="container">
+
+		<div class="row">
+			<div class="col-sm-12">
+				<div id="customers-teams" class="owl-carousel">
+
+					<!--team 1 -->
+					<div class="item box">
+						<div class="shadow-effect">
+							<img class="img-circle" src="pictures/faiz.png">
+							<h2>Sup, I'm <b style="color: black;">Faizy</b></h2>
+							<p class="title">CEO & Founder</p>
+							<div id="pastexp">
+								<p>I am the founder of DeafMatrix. I assume the roles of Web and Graphic Designer. While
+									studying User Experience design at Lesley University, I have found my passion in
+									user interface design and currently pursuing a career towards UX designer.</p>
+								<p style="margin-top:-5px; font-size: 10px; font-weight: bold;">Interests: Netflix,
+									Content Creator, and Fitness</p>
+							</div>
+							<div class="social-icons" id="teamsocial">
+								<a href="https://www.facebook.com/faiz.jamal.31/" target="blank"><i class="fab fa-facebook-f 								 fba"></i></a>
+								<a href="https://www.instagram.com/thefaizyjamalz/?hl=en" target="blank"><i
+										class="fab fa-instagram ig"></i></a>
+								<a href="https://www.behance.net/faizjamal" target="blank"><i class="fab fa-behance"></i></a>
+								<a href="https://www.youtube.com/channel/UC6CvzYf36W9S5CmCyJ-kzMw" target="blank"><i class="fa 									fa-youtube-play yt"></i></a>
+							</div>
+							<!--Social Icons End Here-->
+						</div>
+					</div>
+					<!--END OF team 1 -->
+
+					<!--team 2 -->
+					<div class="item box">
+						<div class="shadow-effect">
+							<img class="img-circle" src="pictures/shahmeer.png">
+							<h2>Hi, I'm <b style="color: black;">Shahmeer</b></h2>
+							<p class="title">Project Manager</p>
+							<div id="pastexp">
+								<p style="font-size: 10px;">I have a Master’s Degree in Mechanical & Aerospace
+									Engineering. I am currently pursuing my PhD within my field with a focus on material
+									mechanics. I am a prolific content editor. I have fact-checked and proofread a
+									variety of articles pertaining to topics in science. I have a passion for mastering
+									data science and high performance computing. I design cars and planes using CAD such
+									as Solidworks and CATIA.</p>
+								<p style="margin-top:-5px; font-size: 10px; font-weight: bold;">Interests: Product
+									design, Physics, and Fitness</p>
+							</div>
+							<div class="social-icons" id="teamsocial">
+								<a href="https://www.facebook.com/shahmeer.baweja" target="blank"><i class="fab fa-facebook-f							     fba"></i></a>
+								<a href="https://www.instagram.com/shahbawe/?hl=en" target="blank"><i class="fab fa-instagram 								  ig"></i></a>
+								<a href="#"><i class="fab fa-twitter t "></i></a>
+							</div>
+							<!--Social Icons End Here-->
+						</div>
+					</div>
+					<!--END OF team 2 -->
+
+
+					<!--team 3 -->
+					<div class="item box">
+						<div class="shadow-effect">
+							<img class="img-circle" src="pictures/nabed-khan.png">
+							<h2>Hey, I'm <b style="color: black;">Nabed</b></h2>
+							<p class="title">Front-End Developer | Upwork</p>
+							<div id="pastexp">
+								<p style="font-size: 10px;">I have a Bachelor Degree in Engineering. I am a Professional
+									Front End Developer and WordPress, Squarespace Expert. Over the past 3 years, I have
+									been working on moderate to small projects for different companies around the globe.
+									I am an integral part of the website design team.</p>
+								<p style="margin-top:-5px; font-size: 10px; font-weight: bold;">Interests: Coding,
+									Travelling and Cricket</p>
+							</div>
+							<div class="social-icons" id="teamsocial">
+								<a href="https://www.facebook.com/nabedkhan67/" target="blank"><i
+										class="fab fa-facebook-f"></i></a>
+								<a href="https://www.instagram.com/nabed_khan/" target="blank"><i
+										class="fab fa-instagram"></i></a>
+								<a href="https://www.behance.net/nabedkhan67" target="blank"><i
+										class="fab fa-behance"></i></a>
+							</div>
+							<!--Social Icons End Here-->
+						</div>
+					</div>
+					<!--END OF team 3 -->
+
+					<!--team 5 -->
+					<div class="item box">
+						<div class="shadow-effect">
+							<img class="img-circle" src="pictures\sid.jpg">
+							<h2>Hi, I'm <b style="color: black;">Sidharth</b></h2>
+							<p class="title">Web developer | Upwork</p>
+							<div id="pastexp">
+								<p style="font-size: 10px;">I am currently pursuing btech degree in computer science. I am a professional web designer and developer, python developer or django web framework developer. Designed and developed various user-friendly website, seo-friendly, mobile-friendly, responsive designs, including optimizing web functionality .</p>
+								<p style="margin-top:-5px; font-size: 10px; font-weight: bold;">Interests: Gaming, Books, and Traveling</p>
+							</div>
+							<div class="social-icons" id="teamsocial">
+								<a href="https://m.facebook.com/sidharth.verma.71697#_=_" target="blank"><i class="fab fa-facebook-f fba"></i></a>
+								<a href="https://www.instagram.com/__sidharth.v/" target="blank" ><i class="fab fa-instagram ig"></i></a>
+								<a href="https://mobile.twitter.com/Sidharthv6367" target="blank"><i class="fab fa-twitter t "></i></a>
+								<a href="https://www.linkedin.com/in/sidharth-verma-3830801b2/" target="blank"><i class="fa fa-linkedin l"></i></a>
+							</div>
+							<!--Social Icons End Here-->
+						</div>
+					</div>
+					<!--END OF team 5 -->
+
+
+					<!--
+					<div class="item box">
+						<div class="shadow-effect">
+							<img class="img-circle" src="pictures/Nouman.png">
+							<h2>Hey, I'm <b style="color: black;">Nouman</b></h2>
+							<p class="title">Content-Writing | Upwork</p>
+							<div id="pastexp">
+								<p style="font-size: 10px;">I have a Bachelor Degree in Physics. I am a versatile
+									professional and experienced writer, content creator, editor, and proofreader. I
+									have the ability to write both creatively and scientifically. To utilize each and
+									every one of them for the greater good.</p>
+								<p style="margin-top:-5px; font-size: 10px; font-weight: bold;">Interests: Books,
+									Cooking, and Meditating</p>
+							</div>
+							<div class="social-icons" id="teamsocial">
+								<a href="https://www.upwork.com/freelancers/~0113c0c9700d2abeda" target="blank">											<strong>Up</strong></a>
+							</div>
+						</div>
+					</div>
+						-->
+					
+				<!--team 6 -->					
+					<div class="item box">
+						<div class="shadow-effect">
+							<img class="img-circle" src="pictures/Mujahid.png">
+							<h2>Hey, I'm <b style="color: black;">Mujahid</b></h2>
+							<p class="title">WordPress Technical Support | Upwork</p>
+							<div id="pastexp">
+								<p style="font-size: 10px;">Experienced, Communicative, Creative, Honest, Reliable, and Highly 								 	Skilled WordPress Developer and Speed Optimization Expert. Good hand with eCommerce platforms 								   WooCommerce, Shopify. Provide Technical support and Solution for WordPress related issues.									 </p>
+								<p style="margin-top:-5px; font-size: 10px; font-weight: bold;">Interests: Football, Movies 								and Coding</p>
+							</div>
+							<div class="social-icons" id="teamsocial">
+								<a href="https://www.upwork.com/freelancers/~018c95a141a8a2f639" target="blank">											<strong style="color: black;">Up</strong></a>
+							</div>
+						</div>
+					</div>
+				<!--team 6 -->	
+				
+					<!--team 7 -->
+					<div class="item box">
+						<div class="shadow-effect">
+							<img class="img-circle" src="pictures/aslam.png">
+							<h2>Greeting, I'm <b style="color: black;">AJ</b></h2>
+							<p class="title">Financial and President</p>
+							<div id="pastexp">
+								<p style="font-size: 10px;">I am the President of DeafMatrix. I am the financier of the 																company. I have a Masters in Engineering and have vast experience 															  in new products development and introduction. Our team has worked 															hard on this project and we are excited to introduce DeafMatrix 															that will specially help our hard of hearing community. </p>
+								<p style="margin-top:-5px; font-size: 10px; font-weight: bold;">Interests: News, Tesla, and 								Stocks </p>
+							</div>
+							<!--Social Icons End Here-->
+						</div>
+					</div>
+					<!--END OF team 7 -->
+
+
+
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- END OF teams -->
+
+
+
+
+
+
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- END OF teams -->
+
+<script>
+	//Team Slider
+
+	$('#customers-teams').owlCarousel({
+		loop: true,
+		center: true,
+		items: 3,
+		margin: 0,
+		autoplay: true,
+		dots: true,
+		autoplayTimeout: 4500,
+		checkVisibility: true,
+		responsive: {
+			0: {
+				items: 1
+			},
+			991: {
+				items: 3
+			},
+			1200: {
+				items: 3
+			}
+
+		}
+	});
+
+</script>
+  <!--team html-->
+  <!--team css-->
+
+  <!-- footer css -->
+  <footer class="background_footer" style="z-index: 10002;">
+    <div class="container-fluid" style="background-color: transparent;">
+      <div class="row">
+        <div class="col-xl-4 col-lg-12 col-md-12 face_icon">
+          <div id="contact_us" class="footer-copyright">
+            <img src="pictures/icon_white.png" width="30px" height="30px">
+            <p class="text-white d-inline-block copyright">&copy; 2020 DeafMatrix, LLC. All Rights Reserved.</p>
+          </div>
+        </div>
+
+        <div class="col-xl-5 col-lg-12 col-md-12 foot">
+          <div class="policy" style="margin-top: 15px;">
+            <!-- Buttons-->
+            <button class="btn_modal" data-toggle="modal" data-target="#myModal1">Terms Of Service</button>
+            <button class="btn_modal" data-toggle="modal" data-target="#myModal2">Privacy Policy</button>
+            <button class="btn_modal" data-toggle="modal" data-target="#myModal3">Rules</button>
+            <button class="btn_modal conb" data-toggle="modal" data-target="#myModal4">Contact Us</button>
+            <button class="btn_modal conf" data-toggle="modal" data-target="#myModal5">FAQ</button>
+            <!-- Buttons-->
+
+
+            <!-- Terms of Service -->
+            <div class="modal fade" id="myModal1">
+              <div class="modal-dialog">
+                <div class="modal-content" style="border-radius: 20px;">
+                  <div class="modal-header">
+                    <h4 class="modal-title">Terms of Service</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body" style="height: 540px; overflow-y: scroll;">
+                    <p>Effective from (... August 2020).</p><br>
+                    The following Terms shall guide your participation in the services of DeafMatrix.
+                    Please read them carefully to understand your duties and liabilities while engaging in our services.
+
+                    <h2>1. Registration</h2>
+                    <p>1.1 You must be a registered member before engaging in any of our services. You shall be required
+                      to key in your personal data including your photograph before successfully registering your
+                      account with us.</p>
+                    <p>1.2 You may not be able to access certain parts of our App or services without first registering
+                      an account with us.</p>
+                    <p>1.3 Upon accessing our services, you must not tamper with, destroy, or attempt to reconfigure or
+                      use any parts of our App and/or our systems that are non-public.</p>
+                    <h2>2. Eligibility</h2>
+                    <p>2.1 Only persons who have attained the legal age of consent may engage in our services. 2.2 You
+                      must therefore be eighteen (18) years and above in order to participate.</p>
+                    <p>2.3 No children are allowed to use the services of DeafMatrix and in case of any breach
+                      DeafMatrix reserves the right to close down the account without prior notice.</p>
+                    <p>2.4 You must be allowed to use our services by the laws of your home country before registering
+                      for our services.</p>
+                    <h2>3. Account Creation</h2>
+                    <p>3.1 There are two options for creating account with DeafMatrix: 1. through manually opening an
+                      account, or 2. joining through Facebook.</p>
+                    <p>3.2 Should you opt to join through Facebook account then you authorise DeafMatrix to obtain, use
+                      and display certain details from your Facebook account including but not limited to Facebook
+                      friends, location, profile picture, posts, relationship status and preferences among others.</p>
+                    <p>3.3 You Must Not use anyone’s account without their express consent and authority. Any such use
+                      of another person’s account shall be treated as fraud by DeafMatrix and could lead to suspension
+                      and termination of your account without prior notice.</p>
+                    <p>3.4 DeafMatrix reserves the right to block certain IP addresses from accessing its services and
+                      no liability may arise whatsoever from such action.</p>
+                    <h2>4. Deleting Your Account</h2>
+                    <p>4.1 You may delete your account at any time and for any reason by first login into your account
+                      and clicking on the ‘Settings’ menu. You will see a drop down of items, click on the ‘Delete
+                      account’.</p>
+                    <p>4.2 DeafMatrix will complete the deletion of your account immediately after you follow the
+                      process highlighted under paragraph 4.1. above but your personal information may be retained for
+                      up to Thirty (30) days.</p>
+                    <p>4.3 DeafMatrix reserves an exclusive right to suspend or terminate any account for any reason
+                      without prior notice and/or warning. No liability may arise whatsoever from such action and
+                      DeafMatrix may use any legal, operational, technological and or other means that are available to
+                      it in enforcing these Terms.</p>
+                    <h2>5. Account Reactivation</h2>
+                    <p>5.1 DeafMatrix shall keep your login information and personal information for a period of Thirty
+                      (30) days after deleting your account as explained under paragraph 4.0. above. During this period,
+                      you can reactivate your account by logging in using your previous login credentials.</p>
+                    <p>5.2 Furthermore, you may not create new account using the same credentials that you used in your
+                      deleted account during this period of thirty days after deleting your account. However, DeafMatrix
+                      shall reactivate your previous account on your behalf.</p>
+                    <h2>6. Contents</h2>
+                    <p>6.1 This App uses three types of content: Your Content, Our Content, and Other Members’ Content.
+                    </p>
+                    <p>6.2 DeafMatrix is not responsible for contents posted by you or that is posted by other members.
+                      Besides, DeafMatrix does not guarantee the authenticity of any information posted on its platform.
+                      You are required to independently verify the authenticity/truth of contents you post or that are
+                      posted by other members.</p>
+                    <p>6.3 DeafMatrix reserves the right to pull down any content that it believes to be untrue, utterly
+                      obscene, abusive or malicious without any prior notice or warning. No liability may arise from
+                      such actions whatsoever.</p>
+                    <h2>7. Your Content</h2>
+                    <p>7.1 You commit to post contents that adhere to our Terms and that comply with the national laws
+                      of your home country. You are therefore responsible for all contents that you may post from time
+                      to time.</p>
+                    <p>7.2 You commit to indemnify, defend, release and hold harmless both DeafMatrix and all Members
+                      and Third parties from any and all claims that may arise in connection to the contents that are
+                      posted by you.</p>
+                    <p>7.3 You further understand that DeafMatrix will not be held liable under whatever circumstances
+                      for the content that you post. </p>
+                    <p>7.4 You understand that your content will be made public and available to users once you post it.
+                      As a result, you waive any and all rights, claims and/or interests relating to the right to
+                      privacy over your posts. Your content thus remains accessible to all users across the globe
+                      including those visiting our site via a link sent to them.</p>
+                    <p>7.5 DeafMatrix retains the right to pull down or remove from the site and/or App, edit, limit,
+                      delay display or block access to any and all of Your Content at any time and at our sole
+                      discretion.</p>
+                    <p>7.6 DeafMatrix is not bound to display or review any of Your Content hence no obligation may
+                      arise for any failure to review or display your Content.</p>
+                    <h2>8. Safety Tips</h2>
+                    <p>8.1 You Must Not publish on your personal profile, display or otherwise make known any and all
+                      personal contact information including bank account details, credit/debit card name or number,
+                      URLs, telephone numbers, home address, email address, postcodes, and/or other related information
+                      whether belonging to you or other person.</p>
+                    <p>8.2 You disclose such information at your own risk and liability should you choose to communicate
+                      the same to any third party through email or private chats.
+                    <p>8.3 You Must exercise care and caution at all times while interacting on our App. Ensure that you
+                      are not lured or tricked into blackmail, fraud and/or burglary by limiting your chats off our App.
+                    </p>
+                    <p>8.4 If you agree to meet anyone in person, always ensure that your security and that of your
+                      property is guaranteed.</p>
+                    <p>8.5 Report to the authorities and to us on any misbehaviour, blackmail or criminal activities
+                      that a member commits.</p>
+                    <h2>9. Members’ Content</h2>
+                    <p>9.1 You understand that other members may generate and circulate information on our platform.
+                      Such information is owned by the user posting it and may be displayed on the App and stored on our
+                      servers.</p>
+                    <p>9.2 You do not have any rights or claims with regards to Other Members’ Content and your use must
+                      conform to the objectives of Our App and services. DeafMatrix allows users to meet and mingle and
+                      no use that does not conform to this objective is will be tolerated.</p>
+                    <p>9.3 You Must Not use Other Members’ Content for personal commercial gain, or fraudulent purposes
+                      including such use that constitute spamming, harassment, defamation, libel/slander and/ or any
+                      other intolerable and unlawful conduct.</p>
+                    <p>9.4 You may report to us any content that is false, inaccurate, utterly offensive, or that is in
+                      breach of our Terms of Use or that is prohibited by the laws of your home country.
+                    <p>9.6 DeafMatrix reserves the right to suspend, terminate or delete your account without any prior
+                      notice once DeafMatrix determines that you are misusing Other Members’ Content.</p>
+                    <p>9.7 Members agree that all contents that they post are their own and will not violate any
+                      copyright, patents, trademarks and/or other intellectual property rights, interests, and /or
+                      claims. </p>
+                    <p>9.8 DeafMatrix reserves the right to enforce the Digital Millennium Copyright Act by pulling down
+                      any post that violates any copyrighted work.</p>
+                    <h2>10. Your Interaction with Other Members</h2>
+                    <p>10.1 You understand that DeafMatrix offers you an opportunity to interact with other users on the
+                      App platform and, therefore, you guarantee professionalism during your interaction with others.
+                    </p>
+                    <p>10.2 You further understand that such interaction carries with it such risks including but not
+                      limited to criminal activities, fraud and blackmail.</p>
+                    <p>10.3 You fully understand that DeafMatrix is not responsible for the conduct of any member on its
+                      platform or App and you undertake to exercise care and caution while using our App.</p>
+                    <p>10.4 You understand that DeafMatrix does not conduct any criminal background check on its users
+                      or any legal and/or other inquiries into its users’ background. Therefore, you are individually
+                      responsible for your interactions with other users on our platform or App.</p>
+                    <p>10.5 DeafMatrix reserves the right at its sole discretion and at any time or upon request to
+                      conduct any and all criminal background checks including screening for sex offenders.</p>
+                    <p>10.6 DeafMatrix shall conduct such searches, screening and/or background checks in liaison with
+                      the relevant authorities such as the Consumer Reporting Agency, and/or independently examine the
+                      available public records.</p>
+                    <p>10.7 You authorize DeafMatrix to conduct any criminal background check and agree that your
+                      information provided at registration or any other time will be used for such purposes.</p>
+                    <p>10.8 DeafMatrix does not represent nor warrant the safety of any individual member from blackmail
+                      and/or extortion nor does it warrant responsible behaviour among members. No liability shall lie
+                      against DeafMatrix for the misconduct of other members. </p>
+                    <h2>11. Prohibited Conduct</h2>
+                    <p>11.1 All members commit to conduct themselves responsibly and with decorum and respect for self
+                      and other members. Some conducts are therefore prohibited when using the App or our site.</p>
+                    <p>11.2 DeafMatrix does not discriminate on any basis including on the basis of race, sex, gender,
+                      nationality, sexual orientation, marital status, religion and/or any other legitimate ground
+                      recognised by law. Therefore, you must cease and desist from any discriminatory practices while
+                      using the App or our site. All conducts reminiscent of hatred, bigotry, or racism are therefore
+                      prohibited.</p>
+                    <p>11.3 DeafMatrix further affirms its commitment to the respect, protection and promotion of human
+                      dignity. No conduct that offends the dignity of users is allowed including posting of obscene,
+                      pornographic, and/or violent materials.</p>
+                    <p>11.4 Users agree not to post any material that is intended to harass, defame, offend, upset,
+                      annoy, embarrass, and/or threaten any other user.</p>
+                    <p>11.5 No content that promotes criminal activities, encourages or offers counselling for the
+                      commission of an offence, and/or promotes illegal activities such as child trafficking, sex
+                      trafficking, slavery, terrorism, money laundering, and/or other international crimes are
+                      permitted.</p>
+                    <p>11.6 Members are prohibited from posting any links to other websites for commercial purposes such
+                      as promotions, advertisements, sales, premium services, and/or competitions.</p>
+                    <p>11.7 Members agree not to transmit any malware, junk mails, spam, spy ware, viruses, worm
+                      programs, adware and/or other malicious codes with the intention of corrupting, damaging,
+                      expropriating, wrongly intercepting, interrupting, or limiting the normal functioning of any
+                      device, software, hardware, servers, telecommunications, networks and/or other equipment.</p>
+                    <h2>12. Restrictions on the App</h2>
+                    <p>12.1 Members agree to strictly adhere to all applicable laws regulating copyright, privacy
+                      rights, anti-spam laws, non-discrimination and equal opportunity laws, and related intellectual
+                      property laws.</p>
+                    <p>12.2 You must not reproduce, delete, interrupt or otherwise interfere with the configuration of
+                      the App or any parts thereof without our express consent.</p>
+                    <p>12.3 Members commit to be professional in their dealings and use of our services. Therefore, you
+                      Must Not act in an unlawful manner or unprofessional way by being dishonest, discriminatory,
+                      abusive or fraudulent and malicious.</p>
+                    <p>12.4 Members agree to use only their real names and photographs on their profiles and not to
+                      abuse other people’s privacy by uploading other members’ details or photographs, or disclose any
+                      other personal information without consent or authority.</p>
+                    <p>12.5 You shall not misrepresent your identity, qualifications, current or previous positions
+                      and/or affiliations with a person or entity.</p>
+                    <p>12.6 No member may create, operate or disseminate information about pyramid schemes, fraudulent
+                      dealings and/or other illegal, exploitative, or malicious activities.</p>
+                    <p>12.7 Members should report any suspicious activity by another member by contacting DeafMatrix.
+                      The complaint should state the abuse and the username/profile associated to it.</p>
+                    <h2>13. Our Content and Proprietary Rights</h2>
+                    <p>13.1 Any content found on our site or App that is not either classified as Your Content or Other
+                      Members Content remains the content of DeafMatrix. These include but are not limited to App
+                      design, user interface, algorithms, sounds, texts, graphics, artwork, logos, and other contents
+                      ordinarily associated with our services.</p>
+                    <p>13.2 These contents remain the rightful property of DeafMatrix and may not be edited,
+                      reconfigured, expropriated or exploited for personal gain without the written consent of
+                      DeafMatrix. Furthermore, Our Content is protected by copyright, trademark and other intellectual
+                      property laws that are applicable and subject to change from time to time.</p>
+                    <h2>14. Rights DeafMatrix Grants You</h2>
+                    <p>14.1 DeafMatrix grants all users a non-exclusive, limited, personal, non-transferable, revocable
+                      licence to access and use Our Content, without the right to sublicense.
+                    <p>14.2 You Must not use, modify, edit, sell or distribute Our Content without our express
+                      permission in writing unless the same is permitted by the functionality of the App.</p>
+                    <p>14.3 You Must not use Our Content in any unlawful way or for purposes other than in line with our
+                      services. </p>
+                    <h2>15. License to User Content</h2>
+                    <p>15.1 By using DeafMatrix’s services, you authorize us to use all contents, posts, pictures,
+                      videos and any other form of information without compensation to you.</p>
+                    <p>15.2 You assign all licenses, claims, interests, patents, copyright and/or any other legal right
+                      or claim in equity to DeafMatrix for our sole and exclusive use without your permission or
+                      benefit.</p>
+                    <h2>16. Privacy</h2>
+                    <p>16.1 DeafMatrix shall collect, distribute, use and/or share Your Contents including personal
+                      information, login details and/or traffic and user preferences. Such information shall be governed
+                      by our Privacy Policy. Kindly check our Privacy Policy before engaging in our services.</p>
+                    <h2>17. Account Security</h2>
+                    <p>17.1 DeafMatrix shall only be responsible for the details it collects to administer the services
+                      to you subject to our Privacy Policy. You are responsible for maintaining the confidentiality of
+                      the username and password that you use to register for our services.</p>
+                    <p>17.2 Members shall take reasonable care of their personal information relating to their accounts,
+                      and personal electronic devices including login details used to access our services and shall
+                      protect DeafMatrix from unauthorised use, hacking, alteration or any damage, loss or stealing of
+                      information, algorithms, designs, contents etc by unauthorized persons.</p>
+                    <p>17.3 DeafMatrix does not guarantee proper functioning of the App in relation to internet speed,
+                      data processing or any other complication beyond our control.</p>
+                    <h2>18. Push Notifications; Location-Based Features</h2>
+                    <p>18.1 You may receive push notifications, texts messages, alerts, and similar messages regarding
+                      our services on the App. These may include but are not limited to offers, promotions, products,
+                      enhancements and events. You have the option to accept or deny the notifications upon downloading
+                      the App.</p>
+                    <p>18.2 You will not receive any alerts or push notifications if you choose to deny the
+                      notifications. However, by accepting the push notifications, you agree to receive the
+                      notifications which will automatically be sent to you.</p>
+                    <p>18.3 You may also opt out of push notifications if you no longer need them by changing the
+                      notifications’ settings on your mobile device. You may equally unsubscribe from email
+                      notifications by following the instructions within the email.</p>
+                    <p>18.4 We may use your device location to help customize the content we show you together with
+                      opportunities, products and materials. As a result, we may request that you turn on your GPS
+                      feature or Bluetooth or any mobile software and/or authorize the App to access your location data.
+                      You will be unable to access the customized products, materials and contents if you disable your
+                      location feature.</p>
+                    <h2>19. Disclaimer</h2>
+                    <p>19.1 DeafMatrix does not warrant that the App will be fit for a particular purpose, title, or
+                      non-infringement.</p>
+                    <p>19.2 DeafMatrix does not represent, guarantee or warrant that the App will be error free, stay
+                      uninterrupted, meet your expectations, or warrant the validity/ accuracy or truthfulness of the
+                      content posted by users. </p>
+                    <p>19.3 You acknowledge that your use of the App is at your own risk and no liability may arise for
+                      such use.</p>
+                    <h2>20. Limitation of Liability</h2>
+                    <p>20.1 DeafMatrix shall not be liable in tort, claim of negligence, breach of contract or
+                      proprietary rights arising from your use of the App. You may not therefore claim any form of
+                      damages whether direct, indirect, actual, punitive, consequential, incidental, nominal, special,
+                      punitive or otherwise. </p>
+                    <p>20.2 DeafMatrix will not be liable for any claim even where it is advised of the possibility of
+                      such loss occurring.</p>
+                    <p>20.3. In any event, a claim for liability must not exceed one hundred dollars ($100) upon
+                      successful claim and without prejudice to waiver of liability and indemnity clauses under these
+                      Terms.</p>
+                    <h2>21. Modifications</h2>
+                    <p>21.1 DeafMatrix reserves the right to modify and/or update these terms from time to time and such
+                      terms shall take effect immediately after they are posted on the App. You are kindly advised to
+                      check for our updated version whenever engaging our services.</p>
+                    <h2>22. Indemnity</h2>
+                    <p>22.1 Members agree to indemnify, release and hold harmless DeafMatrix, its affiliates, partners
+                      and employees from any and all losses, liability, claims, obligations, or damages (whether direct,
+                      indirect, incidental, actual, consequential, nominal, punitive, or otherwise), equitable relief,
+                      and any other legal, equitable, and administrative remedy, of every kind and nature, whether known
+                      or unknown, suspected or unsuspected, disclosed or undisclosed, past, present, or future, arising
+                      out of or in any way connected with your interaction with the services offered by DeafMatrix,
+                      other Members, and/or other users or entities.</p>
+                    <br>
+                    <h2 style="text-align: center;">Contact Us</h2>
+                    <p style="text-align: center;">In case of any inquiries please contact DeafMatrix through support.
+                      The contact email is <a href="mailto:deafmatrixapp@gmail.com">deafmatrixapp@gmail.com</a></p>
+                    <br><br>
+                    <p style="text-align: center;">-END-</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn_modal btn_modal-danger x_close" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Terms of Service -->
+
+
+
+            <!-- Privacy Policy -->
+            <div class="modal fade" id="myModal2">
+              <div class="modal-dialog">
+                <div class="modal-content" style="border-radius: 20px;">
+                  <div class="modal-header">
+                    <h4 class="modal-title">Privacy Policy</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body" style="height: 540px; overflow-y: scroll;">
+                    <p>Effective Date:…</p><br>
+                    This Privacy Policy (Policy) applies to your personal data and any other information that you may
+                    reveal or that DeafMatrix may collect whenever you engage with the App or our site. DeafMatrix shall
+                    endeavor to make all information that it collects secure and this Privacy Policy shall thus govern
+                    the collection, usage, sharing and storing of any information it gathers for its legitimate use.
+                    Personal information as used in this policy means the information relating to your device, posts,
+                    preferences and profile information.<br><br>
+
+                    This site/App may employ the use of Cookies, Log files, and Web beacons, tags and pixels to collect
+                    information on viewer traffic.
+                    <h2>1. Information DeafMatrix Collects</h2>
+                    <p>1.1 DeafMatrix collects all information that is associated with your account and use of our
+                      services that include your profile information, Facebook account’s information where you register
+                      to our services using your Facebook account, your preferences and device information.</p>
+                    <p>1.2 The information we collect may be grouped into three different categories, that is,
+                      Information that You Give Out, Information We Get from Other Sources, and Information Generated
+                      during Your Usage of our services.</p>
+                    <p>1.3 During the registration of an account with us you will feed in personal information relating
+                      to your identity, personality, sexual preferences, gender, religion, ethnicity, tribe, race and
+                      related information. This information will be collected and stored in our system.</p>
+                    <p>1.4 You may equally give similar information whenever you participate in our surveys, promotions,
+                      contests, focus groups, responses, events or other services that require you to give out personal
+                      information that will be stored in our servers.</p>
+                    <p>1.5 Your information will also be collected whenever you engage our support or customer care
+                      department, whether to complain about other users or on personal initiative. Additionally, your
+                      chats with other users, your posts and contents that you post will be collected and stored by us.
+                    </p>
+                    <p>1.6 Other users may contact DeafMatrix about your profile and may supply some information about
+                      you that will be stored by us. Besides, by logging in using your Facebook account, you will be
+                      sharing your Facebook account’s information including your login details.</p>
+                    <p>1.7 Lastly, DeafMatrix will collect data relating to your use of our services including the pages
+                      you access, links, people you interact with, searches, clicks, date and time you logged in,
+                      duration and related data. DeafMatrix will equally collect your device information including
+                      cookie settings, wireless access points and names, IP address, browser type, version and language,
+                      app crashes, operating systems and time zone. You may also permit DeafMatrix to collect
+                      information related to your location information through various means such as Bluetooth, GPS or
+                      Wi-Fi connections.</p>
+                    <h2>2. Use of Cookies</h2>
+                    <p>2.1 DeafMatrix shall use cookies and other technologies to be able to recognize you and the
+                      device you are using. Such use shall be primarily for our legitimate business interest in ensuring
+                      that our services are available to you. In particular, the cookies will help to authenticate you,
+                      retain your settings and preferences, analyze traffic and trends as well as gauge the
+                      effectiveness of advertisement campaigns.</p>
+                    <h2>3. How Your Information is Used</h2>
+                    <p>3.1 DeafMatrix shall use your information to deliver its services to you, to enforce its legal
+                      rights, to ensure your safety and any other legitimate purpose including running of
+                      advertisements. DeafMatrix shall not unlawfully use your information by selling it to
+                      third-parties or unlawfully disclosing it.</p>
+                    <p>3.2 Your information such as personal information will be used to administer your account by
+                      creating and managing your account, providing customer support and communicating our services to
+                      you.</p>
+                    <p>3.3 We will use your profile information such as preferences to help match you and recommend you
+                      to other users as well as display your profile to others and vice versa.</p>
+                    <p>3.4 The cookies data and device data that we collect will be used to help authenticate your
+                      account; allow consistency of our services whenever you use different devices or browsers, and
+                      enhance the efficiency of our services to you.</p>
+                    <p>3.5 We may use the information we gather to help in developing, displaying and tracking content
+                      and run advertisement based on your preferences.</p>
+                    <p>3.6 The information we gather on your usage of our services will be used for research and
+                      analysis on users’ behavior to help us to improve the services we offer and our content or
+                      features.</p>
+                    <p>3.7 We shall equally collect and retain your data to help in the prevention, detection and
+                      fighting fraud, crime or other related illegal and unlawful conduct.</p>
+                    <p>3.8 DeafMatrix will also use your information in ensuring that we comply with the requirements of
+                      the governing laws, help law enforcers or to enforce and/or exercise our rights.</p>
+                    <h2>4. Sharing of Your Information</h2>
+                    <p>4.1 DeafMatrix will not share your information unless it is intended to aid your use of our
+                      services or for other legitimate interests and legal purposes. We may therefore share your
+                      information with other users to aid in connection, with service providers and legal authorities.
+                    </p>
+                    <p>4.2 Your posts and profile information will be shared to other users as well as other public
+                      information that you voluntarily share. We however encourage you to exercise care and caution on
+                      the kind of information that you make available on your profile since the same is subject to abuse
+                      and misuse by other users.</p>
+                    <p>4.3 DeafMatrix may from time to time enlist third-party service providers to ensure that we
+                      deliver to your satisfaction. This may include those we engage to host and manage our data,
+                      advertising, analytics, customer care, payment processing, marketing, and security operations.
+                      DeafMatrix shall therefore share your information with these third-parties only for the purposes
+                      of ensuring the smooth delivery of our services to you.</p>
+                    <h2>5. Disclosure</h2>
+                    <p>5.1 DeafMatrix will only disclose your personal information where you consent or when required by
+                      law or law enforcement agencies in order to comply with applicable laws and regulations, in
+                      response to a subpoena, search warrant or other lawful requests for information we receive or in
+                      order to enforce our rights if you violate our Terms of Service.</p>
+                    <p>5.2 We may equally disclose your information so as to enforce our right and protect our interest
+                      including where such disclosure will help diminish our liability and/or losses in an actual or
+                      threatened lawsuit, enforce this contract and any other agreements, protect other users and our
+                      business interests, and to help in investigating, preventing and/or take action for illegal
+                      activity, unauthorized conduct or suspected fraud. </p>
+                    <h2>6. Cross-Border Data Transfers</h2>
+                    <p>6.1 Such sharing of information and disclosures of your information as already discussed in
+                      clauses 4 & 5 above may involve cross-border transfers across the United States and beyond the
+                      European Economic Area (EEA). In such cases, we will employ standard contractual clauses to
+                      safeguard your privacy.</p>
+                    <h2>7. Data Control</h2>
+                    <p>7.1 You remain in total control of the information you share on your profile and you may access
+                      and update it or modify the same using our service tools in the App.</p>
+                    <p>7.2 You may allow or reject push notification by changing your device settings to consent or
+                      decline the collection of certain information as well as their display.</p>
+                    <p>7.3 You may delete your account and information on your profile and such information will no
+                      longer be available to the public.</p>
+                    <h2>8. Your Rights</h2>
+                    <p>8.1 You have the right to access, review and modify, right of portability or variation as well as
+                      a right to request that a copy of the information we collect and a report on how the same is used.
+                      You may request this by sending us an email or by reaching out to our support team.</p>
+                    <p>8.2 You have a right to ask that your information be updated and rectified if you believe that
+                      such information held by us is inaccurate or that we are not entitled to retain the same. You may
+                      equally seek deletion, or object the processing of your information by us.</p>
+                    <p>8.3 DeafMatrix reserves the right to reject/refuse or decline requests where it believes that
+                      such a request is unlawful, or where the same infringes on trade secrets and/or intellectual
+                      property or privacy rights of other users.</p>
+                    <p>8.4 Where a request involves the disclosure of the chats with other users or information about
+                      other users, that user must give their consent by contacting our Privacy Officer and providing
+                      their consent in writing before such information can be disclosed.</p>
+                    <h2>9. EU Users and GDPR Rights</h2>
+                    <p>9.1 Users in the UK and EU have the rights under the applicable EU regulations including the
+                      right: to be informed on the data collected, right of rectification, to erase personal data, to
+                      restrict processing, to object to decisions based on automated processing or profiling, to request
+                      for a copy of the data you have provided to us in a structured, machine-readable format and port
+                      the same to another data controller. You equally have the right to obtain a copy of or access to
+                      safeguards that we have employed when sharing your personal information outside the European
+                      Economic Area.</p>
+                    <p>9.2 You also have the right to raise a complaint with data protection regulators including the
+                      Information Commissioner’s Office (ICO) for those in the United Kingdom.</p>
+                    <h2>10. California Residents</h2>
+                    <p>10.1 Users from California are entitled to all rights already discussed above and those
+                      specifically provided for under the California Consumer Privacy Act. You may request that we
+                      disclose the categories of personal information that we have shared with third parties over the
+                      past twelve (12) months for the purposes of direct marketing by the third parties. We shall
+                      respond to your request within 30 days of receiving the same. We kindly implore your patience
+                      during this period.</p>
+                    <h2>11. Security of Your Information</h2>
+                    <p>11.1 DeafMatrix will take all reasonable precautions and follow what we believe are commercially
+                      reasonable practices to ensure the safety of your personal information. These shall include
+                      measures that ensure that your personal information is not inappropriately lost, misused,
+                      accessed, disclosed, altered or destroyed.  We do not however promise, represent or warrant that
+                      your data will always remain secure.</p>
+                    <p>11.2 DeafMatrix undertakes to routinely monitor our service and systems for possible
+                      vulnerabilities and attacks and update our systems accordingly. We shall also review how we
+                      collect, store and process our information on a periodic basis and update our security measures.
+                    </p>
+                    <p>11.3 DeafMatrix will at any time and without notice suspend partially or wholly its services
+                      where it believes, suspects or has detected a serious breach to the security of users and its
+                      data. Users are encouraged to report to us immediately they suspect that their account has been
+                      hacked or there has been unauthorized access.</p>
+                    <h2>12. Retention Period</h2>
+                    <p>12.1 DeafMatrix shall retain your data only as long as it is relevant for its legitimate
+                      interests and as is authorized under the applicable law. We shall therefore hold on your data for
+                      up to three months (safety period) after you have deleted your account in order to ensure the
+                      safety and security of other users. During this period, no user may access the information on our
+                      services.</p>
+                    <p>12.2 We will delete or anonymize your information after the safety period of three months unless:
+                    </p>
+                    <p>(i) The law requires it to be kept as is the case with traffic data which may be kept for up to
+                      one year to comply with statutory obligations on data retention;</p>
+                    <p>(ii) Where the data is kept to act as evidence of our compliance with the law such as records of
+                      consents to our Terms, Privacy Policy and related consents that are kept for five years;</p>
+                    <p>(iii) There are issues that are outstanding or claim or dispute that require the said data to be
+                      kept until the issue or claim is resolved; or</p>
+                    <p>(iv) The information is kept for our legitimate business interest including the prevention of
+                      fraud, ensuring safety of users and the security of our systems.</p>
+                    <h2>13. Children’s Policy</h2>
+                    <p>13.1 Our services are restricted and only persons who are eighteen (18) years old and above may
+                      use our services. DeafMatrix does not permit users under the age of 18 to use our platform and any
+                      user with such account will immediately be suspended and their account deleted. We do not
+                      knowingly collect personal information related to users who are under the age of 18 and you are
+                      encouraged to report to us whenever you suspect that a user is under the age of 18.</p>
+                    <h2>14. Changes to this Policy</h2>
+                    <p>14.1 DeafMatrix reserves the right to modify this Privacy Policy at any time, and from time to
+                      time in order to reflect changes to our practices or for other operational, legal or regulatory
+                      reasons. Changes and clarifications will take effect immediately upon their posting on the
+                      website.</p>
+                    <p>14.2 If we make material changes to this Policy, we will notify you here that it has been
+                      updated, so that you are aware of what information we collect, how we use it, and under what
+                      circumstances, if any, we use and/or disclose it.</p> <br>
+                    <h2 style="text-align: center;">Contact Us</h2>
+                    <p style="text-align: center;">For any queries, clarifications or additional information about this
+                      Policy and the use of your information, please reach out to us through our email address at <a
+                        href="mailto:deafmatrixapp@gmail.com">deafmatrixapp@gmail.com</a></p>
+                    <p style="text-align: center;">-END-</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn_modal btn_modal-danger x_close" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Privacy Policy -->
+
+            <!-- Rules -->
+            <div class="modal fade" id="myModal3">
+              <div class="modal-dialog">
+                <div class="modal-content" style="border-radius: 20px;">
+                  <div class="modal-header">
+                    <h4 class="modal-title">Rules</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body" style="height: 540px; overflow-y: scroll;">Something</div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn_modal btn_modal-danger x_close" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Rules -->
+
+            <!-- Contact Us -->
+            <div class="modal fade" id="myModal4">
+              <div class="modal-dialog">
+                <div class="modal-content" style="border-radius: 20px;">
+                  <div class="modal-header">
+                    <h4 class="modal-title">Contact Us</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body" style="height: 280px;">
+                    <section id="contact">
+                      <div class="contact-wrapper">
+
+                        <div class="container_contact">
+                          <form id="contact" action="//formspree.io/deafmatrixapp@gmail.com" method="POST"
+                            target="blank">
+                            <fieldset>
+                              <input type="text" id="name" placeholder="NAME" name="name" value="" tabindex="1" required
+                                autofocus>
+                            </fieldset>
+                            <fieldset>
+                              <input type="email" id="email" placeholder="EMAIL" name="email" value="" tabindex="2"
+                                required>
+                            </fieldset>
+                            <fieldset>
+                              <textarea id="message" placeholder="MESSAGE" name="message" tabindex="5"
+                                required></textarea>
+                            </fieldset>
+                            <fieldset>
+                              <button name="submit" type="submit" id="submit" class="send-text"
+                                data-submit="...Sending">Submit</button>
+                            </fieldset>
+                            <div class="status"></div>
+                          </form>
+                        </div>
+
+
+                        <div class="direct-message">
+                          <span class="title_DM" style="margin-left: 50px;">Message Us:</span>
+                          <div class="buttons" style="margin-top: 10px;">
+                            <a href="http://m.me/DeafMatrix?ref=<REF_PARAM>" class="btn facebook">
+                              <span class="icon fa fa-facebook"></span>
+                              <span class="label">FACEBOOK</span>
+
+                            </a>
+
+                            <a href="https://www.instagram.com/DeafMatrix" class="btn instagram">
+                              <span class="icon fa fa-instagram"></span>
+                              <span class="label">INSTAGRAM</span>
+
+                            </a>
+
+                            <a href="https://twitter.com/messages/compose?recipient_id=1295425677882253312"
+                              class="btn twitter">
+                              <span class="icon fa fa-twitter"></span>
+                              <span class="label">TWITTER</span>
+
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+
+                  <div class="modal-footer">
+
+                    <button type="button" class="btn_modal btn_modal-danger x_close" data-dismiss="modal">Close</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <!-- Contact Us -->
+
+            <!-- FAQ -->
+            <div class="modal fade" id="myModal5">
+              <div class="modal-dialog">
+                <div class="modal-content" style="border-radius: 20px; margin-top: 15%; ">
+                  <div class="modal-header">
+                    <h4 class="modal-title">FAQ</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body" style="height: 420px; overflow-y: scroll;">
+                    <dl>
+                      <dt>How much does DeafMatrix cost?</dt>
+                      <dd>
+                        <p>It is absolutely free. No hidden fees.</p>
+                      </dd>
+
+                      <dt>Who can access this app?</dt>
+                      <dd>
+                        <p>Anyone including non-deaf person can access this, but in order to create an account, you must
+                          be at least 18 or older.</p>
+                      </dd>
+
+                      <dt>Does this app require you to verify your account?</dt>
+                      <dd>
+                        <p>It is not required however verifying your account will let people know that you are a real
+                          person. The check button on your profile will determine that you are verified deaf.</p>
+                      </dd>
+
+                      <dt>How do you verify your account?</dt>
+                      <dd>
+                        <p>You can take a picture of your face with your assistive device shown and sign (I love you),
+                          but if you do not wear an assistive device you can upload your audiogram. All photos or
+                          audiograms will be reviewed by an actual DeafMatrix team member.</p>
+                      </dd>
+
+                      <dt>How can I report someone?</dt>
+                      <dd>
+                        <p>If you feel like someone has an inappropriate post on the News Feed, you can go to the post
+                          and tap three dots on the top right side and can report it. Our team will review it and take
+                          necessary action against it.
+                        </p>
+                      </dd>
+
+                      <dt>Do I need to send a friend request before I can message?</dt>
+                      <dd>
+                        <p>You are not required to send a friend request, however if you feel like you don’t want to be
+                          friends with that person you have an option to always block that person.</p>
+                      </dd>
+
+
+                      <dt>I created an account with Facebook and I deactivated it. Can I still use DeafMatrix?</dt>
+                      <dd>
+                        <p>No. DeafMatrix will not be able to find your account because it is linked with Facebook.
+                          However you have the option to create an account with your phone number but your data will be
+                          lost.</p>
+                      </dd>
+
+                    </dl>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn_modal btn_modal-danger x_close" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- FAQ -->
+
+
+
+          </div>
+        </div>
+        <!-- social buttons footer -->
+        <div class="col-xl-3 col-lg-12 col-md-12">
+          <div class="buttons_move">
+            <ul id="buttons">
+              <!-- facebook -->
+              <li class="fb">
+                <a href="https://www.facebook.com/DeafMatrix" title="Facebook">
+                  <i class="fa fa-facebook-f" style="color:blue"></i>
+                </a>
+              </li>
+              <!-- instagram -->
+              <li class="in">
+                <a href="https://www.instagram.com/deafmatrix/?hl=en" title="Instagram" target="_blank">
+                  <i class="fab fa-instagram" style="color:crimson"></i>
+                </a>
+              </li>
+              <!-- twiiter -->
+              <li class="tw">
+                <a href="https://twitter.com/deafmatrix" title="Twitter">
+                  <i class="fab fa-twitter " style="color:lightblue"></i>
+                </a>
+              </li>
+              <!-- youtube -->
+              <li class="gh">
+                <a href="https://youtube.com/deafmatrix" title="Youtube">
+                  <i class="fa fa-youtube-play" style="color:red"></i>
+                </a>
+              </li>
+              <!--linkedin-->
+              <li class="ln">
+                <a href="https://www.linkedin.com/in/faizy-jamal-ba0305187/" title="Linkedin">
+                  <i class="fa fa-linkedin" style="color:purple" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- social buttons footer -->
+      </div>
+  </footer>
+  <!-- footer css -->
+
+  <!-- chat css -->
+  <div id="menuoptions">
+    <span id="closebutton">X</span>
+    <div id="StartChat" class="StartChat" tabindex="1">
+      <img
+        src="pictures/chat_logo.png"
+        id="DeafIcon">
+
+      <span id="Instruction">
+
+        Live Chat
+      </span>
+
+    </div>
+
+    <div id="chatwindow"></div>
+
+    <span id="closebutton2">X</span>
+    <div id="usertextboxmessage">
+
+      <span>
+        <input id="UserInputBox" type="text">
+        <img src="https://cdn.pixabay.com/photo/2018/02/04/01/54/paper-planes-3128885_960_720.png" class="message">
+      </span>
+    </div>
+  </div>
+  <!-- chat css -->
+
+  <a id="this_link" href="">Message Me</a>
+
+
+
+
+  <div id="cursor"></div>
+
+  <script>
+    //scroll animation 
+    AOS.init({
+      duration: 1000,
+    });
+  </script>
+
+
+  <script>
+    // typewritter 
+    const whiteTypedText = document.querySelector("#whiteTypedText");
+    const typedTextSpan = document.querySelector(".typed-text");
+    const cursorSpan = document.querySelector(".cursor");
+
+    const whiteTexts = ["Do you like to ", "Then you are at the right place!"];
+    const textArray = ["connect with people like you?", "attend upcoming events?", "share your experiences?", "catch up with the latest news?", "hear about new innovations?"];
+    const typingDelay = 30;
+    const erasingDelay = 20;
+    const newTextDelay = 2000; // Delay between current and next text
+    let whiteTextIndex = 0;
+    let textArrayIndex = 0;
+    let charIndex = 0;
+
+    function type(isWhiteText = false) {
+      const text = isWhiteText ? whiteTexts[whiteTextIndex] : textArray[textArrayIndex];
+      const element = isWhiteText ? whiteTypedText : typedTextSpan;
+
+      if (charIndex < text.length) {
+        if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+        element.textContent += text.charAt(charIndex);
+        charIndex++;
+        setTimeout(type, typingDelay, isWhiteText);
+      }
+      else {
+        if (isWhiteText && whiteTextIndex === 0) {
+          charIndex = 0;
+          type();
+        } else {
+          cursorSpan.classList.remove("typing");
+          setTimeout(erase, newTextDelay, isWhiteText);
+        }
+      }
+    }
+
+    function erase(isWhiteText = false) {
+      const text = isWhiteText ? whiteTexts[whiteTextIndex] : textArray[textArrayIndex];
+      const element = isWhiteText ? whiteTypedText : typedTextSpan;
+
+      if (charIndex > 0) {
+        if (!cursorSpan.classList.contains("typing")) {
+          cursorSpan.classList.add("typing");
+        }
+        element.textContent = text.substring(0, charIndex - 1);
+        charIndex--;
+        setTimeout(erase, erasingDelay, isWhiteText);
+      }
+      else {
+        if (isWhiteText) {
+          cursorSpan.classList.remove("typing");
+          whiteTextIndex++;
+          if (whiteTextIndex >= whiteTexts.length) {
+            whiteTextIndex = 0;
+          }
+
+          setTimeout(type, typingDelay + 500, true);
+        } else {
+          textArrayIndex++;
+          if (textArrayIndex >= textArray.length) {
+            textArrayIndex = 0;
+            charIndex = whiteTypedText.textContent.length;
+
+            erase(true);
+          } else {
+            cursorSpan.classList.remove("typing");
+            setTimeout(type, typingDelay + 500);
+          }
+        }
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", function () { // On DOM Load initiate the effect
+      if (textArray.length) setTimeout(type, newTextDelay + 100);
+    });
+  </script>
+
+
+
+  <script>
+    // countdown functionality
+    let target_date = new Date('12/12/2020').getTime();
+
+    let days, hours, minutes, seconds;
+
+    const dayTextValue = document.querySelector('.days');
+    const hourTextValue = document.querySelector('.hours');
+    const minuteTextValue = document.querySelector('.minutes');
+    const secondTextValue = document.querySelector('.seconds');
+
+    setInterval(function () {
+      let current_date = new Date().getTime();
+      let seconds_left = (target_date - current_date) / 1000;
+
+      days = parseInt(seconds_left / 86400);
+      seconds_left = seconds_left % 86400;
+
+      hours = parseInt(seconds_left / 3600);
+      seconds_left = seconds_left % 3600;
+
+      minutes = parseInt(seconds_left / 60);
+      seconds = parseInt(seconds_left % 60);
+
+      dayTextValue.textContent = days;
+      hourTextValue.textContent = hours;
+      minuteTextValue.textContent = minutes;
+      secondTextValue.textContent = seconds;
+
+    }, 1000);
+    // countdown functionality
+  </script>
+
+
+  <script>
+    // popup functionality
+    var modal = document.getElementById("myModal");   // Get the modal
+    var btn = document.getElementById("myBtn"); // Get the button that opens the modal
+    var span = document.getElementsByClassName("close_button")[0]; // Get the <span> element that closes the modal
+    btn.onclick = function () { modal.style.display = "block"; }  // When the user clicks on the button, open the modal
+    span.onclick = function () { modal.style.display = "none"; }// When the user clicks on <span> (x), close the modal
+    window.onclick = function (event) {// When the user clicks anywhere outside of the modal, close it
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+
+
+  <script>
+    // link popup
+    var modal = document.getElementById("myModal");   // Get the modal
+    var main1 = document.getElementById("myBtn_main1"); // Get the button that opens the modal
+    var main2 = document.getElementById("myBtn_main2"); // Get the button that opens the modal
+    var btn = document.getElementById("myBtn"); // Get the button that opens the modal
+    var btn2 = document.getElementById("myBtn2"); // Get the button that opens the modal
+    var btn3 = document.getElementById("myBtn3"); // Get the button that opens the modal
+    var btn4 = document.getElementById("myBtn4"); // Get the button that opens the modal
+    var btn5 = document.getElementById("myBtn5"); // Get the button that opens the modal
+    var btn6 = document.getElementById("myBtn6"); // Get the button that opens the modal
+    var span = document.getElementsByClassName("close2")[0]; // Get the <span> element that closes the modal
+    main1.onclick = function () { modal.style.display = "block"; }  // When the user clicks on the button, open the modal
+    main2.onclick = function () { modal.style.display = "block"; }  // When the user clicks on the button, open the modal
+    btn.onclick = function () { modal.style.display = "block"; }  // When the user clicks on the button, open the modal
+    btn2.onclick = function () { modal.style.display = "block"; }  // When the user clicks on the button, open the modal
+    btn3.onclick = function () { modal.style.display = "block"; }  // When the user clicks on the button, open the modal
+    btn4.onclick = function () { modal.style.display = "block"; }  // When the user clicks on the button, open the modal
+    btn5.onclick = function () { modal.style.display = "block"; }  // When the user clicks on the button, open the modal
+    btn6.onclick = function () { modal.style.display = "block"; }  // When the user clicks on the button, open the modal
+    span.onclick = function () { modal.style.display = "none"; }// When the user clicks on <span> (x), close the modal
+    window.onclick = function (event) {// When the user clicks anywhere outside of the modal, close it
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+
+  <script>
+    //cursor
+    console.clear();
+    let mouseX = 0;
+    let mouseY = 0;
+
+    const cursor = document.getElementById('cursor');
+
+    function onMouseMove(event) {
+      mouseX = event.clientX;
+      mouseY = event.clientY;
+    }
+
+    function updateCursor() {
+      cursor.style.transform = `translate(${mouseX}px, ${mouseY}px)`;
+      requestAnimationFrame(updateCursor)
+    }
+
+    document.addEventListener('mousemove', onMouseMove, false);
+
+    updateCursor();
+  </script>
+
+
+  <script>
+    //enlarge mobile device
+    document.getElementById('connect_hover').onmouseover = function () {
+      document.getElementById('hide_me').style.visibility = "hidden";
+
+    };
+    document.getElementById('connect_hover').onmouseout = function () {
+      document.getElementById('hide_me').style.visibility = "visible";
+
+    };
+
+
+
+    document.getElementById('events_hover').onmouseover = function () {
+      document.getElementById('hide_me2').style.visibility = "hidden";
+
+    };
+    document.getElementById('events_hover').onmouseout = function () {
+      document.getElementById('hide_me2').style.visibility = "visible";
+    };
+
+
+
+    document.getElementById('news_hover').onmouseover = function () {
+      document.getElementById('hide_me3').style.visibility = "hidden";
+      document.getElementById('hide_bubbles').style.visibility = "hidden";
+
+    };
+    document.getElementById('news_hover').onmouseout = function () {
+      document.getElementById('hide_me3').style.visibility = "visible";
+      document.getElementById('hide_bubbles').style.visibility = "visible";
+
+
+    };
+
+
+
+
+  </script>
+
+
+  <script>
+    (function ($) {
+      $window = $(window);
+
+      $('*[data-type="parallax"]').each(function () {
+
+        var $bgobj = $(this);
+
+        $(window).scroll(function () {
+
+          var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+          var coords = '100% ' + yPos + 'px';
+
+          $bgobj.css({ backgroundPosition: coords });
+
+        });
+      });
+    })(jQuery);
+  </script>
+
+  <script>
+    //faq
+    (function () {
+      $('dl').on('click', 'dt', function () {
+        $(this).next().toggleClass('expand');
+        $(this).toggleClass('expand');
+      });
+    })();
+  </script>
+
+  <script>
+    //email form
+    $(document).ready(function () {
+      $('#submit').click(function (event) {
+        console.log('Clicked button')
+
+        var name = $('#name').val()
+        var email = $('#email').val()
+        var message = $('#message').val()
+        var statusElm = $('.status')
+        statusElm.empty()
+
+        if (name.length >= 2) {
+
+        } else {
+          event.preventDefault()
+          statusElm.append('<div>*Name is invalid</div>')
+        }
+
+        if (email.length >= 5 && email.includes('@') && email.includes('.')) {
+
+        } else {
+          event.preventDefault()
+          statusElm.append('<div>*Email is invalid</div>')
+        }
+
+        if (message.length >= 10) {
+
+        } else {
+          event.preventDefault()
+          statusElm.append('<div>*Your message must be at least 10 characters long</div>')
+        }
+
+      })
+    })
+  </script>
+
+  <script>
+    //Chat
+    $(document).ready(function () {
+      window.globalVar = 1;
+
+
+      var ProcessContainer = {
+        ProcessUserMessage: function (e, texttoinput) {
+          window.globalVar += 1;
+          $('.class123').hide();
+
+          setTimeout(function () {
+            $("#chatwindow").append("<div id='dotdotdot'><span id='StuLife" + window.globalVar + "' class='options class123' style='float:left;margin-right: 40px;' onclick='test.myFunction(event,this)'><span class='dotA'></span> <span class='dotB'></span> <span class='dotC'></span> </span></div><div style='clear: both'></div>");
+          }, 700);
+
+
+          setTimeout(function () {
+            $('.class123').hide();
+
+
+            BotMessageContainer.BotMessage(
+              "Sorry we are unavailable right now, but you can still message us at:"
+              + '<br>' +
+              "Facebook: " + "<a href='http://m.me/DeafMatrix?ref=<REF_PARAM>' target='_blank'>Message Me</a> "
+              + '<br>' +
+              "Instagram: " + "<a href='https://www.instagram.com/deafmatrix/?hl=en' target='_blank'>Message Me</a>"
+              + '<br>' +
+              "Twitter: " + "<a href='https://twitter.com/messages/compose?recipient_id=1295425677882253312' target='_blank'>Message Me</a>"
+              + '<br>' +
+              "We will respond within 24 hours. Thank you for your time.");
+
+            $('#chatwindow').scrollTop($('#chatwindow')[0].scrollHeight);
+          }, 2000);
+        }
+      }
+
+      var UserMessageContainer = {
+        UserMessage: function (e, texttoinput) {
+          $("#chatwindow").append("<div style='width: 100%'><span id='StuLife' class='options' style='background-color:blue; color: white; margin-left: 40px; margin-right:20px; float:right; border-radius: 20px 20px 5px 20px;' onclick='test.myFunction(event,this)'>" + texttoinput + "</span></div><div style='clear: both'></div>");
+          ProcessContainer.ProcessUserMessage(e, texttoinput);
+          $("#UserInputBox").val("");
+
+        }
+      }
+
+      var BotMessageContainer = {
+        BotMessage: function (replymessage) {
+          $("#chatwindow").append("<div style='width: 100%;'><span id='StuLife" + window.globalVar + "' class='options' style='float:left;margin-right: 40px;background-color:lightgray; border-radius: 20px 20px 20px 5px;' onclick='test.myFunction(event,this)'>" + replymessage + "</span></div><div style='clear: both'></div>");
+        }
+      }
+
+      var BotMessageWithActionContainer = {
+        BotMessageWithAction: function (id1, class1, onclick1, text1, link) {
+          $("#chatwindow").append("<a href='" + link + "'><div><span id='StuLife" + window.globalVar + "' class='options' style='float:left;background-color:#77DD77' onclick='test.myFunction(event,this)'>" + text1 + "</span></div><div style='clear: both'></div></a>");
+        }
+      }
+
+      $("#UserInputBox").keypress(function (e) {
+        if (e.which == 13) {
+          UserMessageContainer.UserMessage(e, $("#UserInputBox").val());
+          $('#chatwindow').scrollTop($('#chatwindow')[0].scrollHeight);
+        }
+      });
+
+      $(".message").click(function (e) {
+        UserMessageContainer.UserMessage(e, $("#UserInputBox").val());
+      });
+
+      $("#closebutton").click(function (e) {
+        $("#menuoptions").toggle();
+      });
+
+      $("#closebutton2").click(function (e) {
+        $('#menuoptions').fadeOut({ queue: false, duration: 500 });
+      });
+
+
+
+      $(".StartChat").click(function () {
+        $("#UserInputBox").val("");
+        $("#menuoptions").animate({ top: '0%' }, { queue: false, duration: 300 }).animate({ height: '100%' }, { queue: false, duration: 1500 });
+        $('#closebutton').fadeOut({ queue: false, duration: 10 });
+
+
+
+
+        $('#Instruction').text('Live Chat');
+        BotMessageContainer.BotMessage("Hello! How can I help you?");
+
+
+
+
+        $('#usertextboxmessage').fadeIn(1000);
+        $('#chatwindow').fadeIn(1000);
+        $('#closebutton2').fadeIn(1000);
+        $('#UserInputBox').focus();
+        $('#StartChat').fadeOut(10);
+
+      });
+    });
+
+  </script>
+
+
+</body>
+
+</html>
